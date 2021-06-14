@@ -1,0 +1,147 @@
+/*---------------------------------------------------------------------------------------------------------- sensitive*/
+.issue-receipt-invoice-form .sensitive-data > .sensitive-data-label.readonly,
+.sensitive-data.sensitive-view-only > .sensitive-data-label,
+#fact_integration_APIKey_wrap.readonly .sensitive-data-label,
+.readonly [data-czech-label]{
+    border-bottom: 1px dashed #e5e5e5 !important;
+    background: none !important;
+    cursor: not-allowed;
+}
+.profile-content.guest-info-fields.readonly_mode input.form-control,
+.profile-content.guest-info-fields.readonly_mode textarea.form-control,
+.profile-content.guest-info-fields.readonly_mode select.form-control,
+.profile-content.guest-info-fields.readonly_mode textarea.form-control,
+.profile-content.guest-info-fields.readonly_mode .form-actions,
+.profile-content.guest-info-fields.edit_mode div.form-control-static,
+.issue-receipt-invoice-form .sensitive-data > input.form-control,
+.profile-content.guest-info-fields .sensitive-data > textarea.form-control,
+.profile-content.guest-info-fields.readonly_mode .sensitive-data > input.form-control,
+.profile-content.guest-info-fields.readonly_mode .sensitive-data > textarea.form-control,
+.profile-content.guest-info-fields.readonly_mode .sensitive-data.sensitive-view-only > input.form-control,
+.issue-receipt-invoice-form .sensitive-data.sensitive-view-only > input.form-control,
+.profile-content.guest-info-fields.readonly_mode .sensitive-data.sensitive-view-only > textarea.form-control,
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data.editable > .sensitive-data-label,
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data:not(.editable)> input.form-control,
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data:not(.editable)> textarea.form-control,
+.issue-receipt-invoice-form .sensitive-data.editable > .sensitive-data-label{
+    display: none;
+}
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data > .sensitive-data-label,
+.issue-receipt-invoice-form .sensitive-data.sensitive-view-only > .sensitive-data-label,
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data.sensitive-view-only > .sensitive-data-label{
+    display: inline-block;
+}
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data.editable > input.form-control,
+.issue-receipt-invoice-form .sensitive-data.editable > input.form-control,
+.profile-content.guest-info-fields:not(.readonly_mode) .sensitive-data.editable > textarea.form-control{
+    display: block;
+}
+.profile-content.guest-info-fields .sensitive-data > .sensitive-data-label,
+.issue-receipt-invoice-form .sensitive-data > .sensitive-data-label,
+.profile-content.guest-info-fields .sensitive-data > input.form-control,
+.profile-content.guest-info-fields .sensitive-data > textarea.form-control{
+    padding-right: 25px;
+}
+.profile-content.guest-info-fields .sensitive-data i[class*="fa-eye"],
+.issue-receipt-invoice-form .sensitive-data i[class*="fa-eye"]{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: #363636;
+    padding: 10px 0 10px 5px;
+}
+.profile-content.guest-info-fields .sensitive-data i[class*="fa-eye"]:hover,
+.issue-receipt-invoice-form .sensitive-data i[class*="fa-eye"]:hover{
+    opacity: 0.8;
+}
+.sensitive-data-wrap {
+    position: relative;
+}
+.payment-gateway .table td {
+    padding: 2px 8px;
+}
+.sensitive-data-label {
+    word-wrap: break-word;
+    padding-right: 30px;
+    margin: 0;
+    height: auto !important;
+    min-height: 34px;
+    -webkit-user-select: all;
+    user-select: all;
+}
+.sensitive-data-field.form-control {
+    display: none;
+    padding-right: 30px;
+}
+.sensitive-data-toggle,
+.show-sensitive-data {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px !important;
+    cursor: pointer;
+    color: #363636 !important;
+    padding: 10px 0 10px 5px;
+}
+.sensitive-data-toggle:hover {
+    opacity: .5;
+}
+.sensitive-data-wrap.edit-mode:not(.readonly) .sensitive-data-label,
+.sensitive-data-wrap.edit-mode.readonly .sensitive-data-field {
+    display: none;
+}
+.sensitive-data-wrap.edit-mode:not(.readonly) .sensitive-data-field,
+.sensitive-data-wrap.edit-mode.readonly .sensitive-data-label,
+.sensitive-data-wrap.readonly .sensitive-data-label {
+    display: block;
+}
+.generate-nota-fiscal-form .sensitive-data-toggle {
+    right: 2px;
+    top: 20px;
+    font-size: 12px;
+}
+.custom-fields-block .required .label-name:after {
+    right: auto;
+    margin-left: 5px;
+}
+.customer-form.readonly_mode .form-control-static,
+.customer-form.edit_mode .form-actions,
+.customer-form.edit_mode .form-control {
+    display: block;
+}
+.guest-info-container .sensitive-data {
+    position: relative;
+}
+.guest-info-container .sensitive-data .sensitive-data-toggle{
+    right: 0;
+    top: auto;
+    bottom: 0;
+    font-size: 16px !important;
+}
+.edit-custom-field-pencil,
+.view-custom-field-eye,
+.police-sensitive-toggle {
+    font-size: 14px !important;
+    color: #959595;
+    margin-left: 10px;
+}
+.view-custom-field-eye {
+    font-size: 16px !important;
+}
+.wrap-custom-field-two {
+    position: relative;
+}
+.wrap-custom-field-two .view-custom-field-eye {
+    position: absolute;
+    right: -25px;
+    bottom: 4px;
+}
+.police-sensitive-wrap {
+    display: flex;
+    align-items: center;
+}
+.police-sensitive-toggle {
+    cursor: pointer;
+}
